@@ -1,0 +1,176 @@
+html{
+    font-size:100%;
+}
+*{
+    box-sizing:border-box;
+}
+body{
+    padding:0%;
+    margin:0%;
+    background-color:rgb(243, 236, 236);
+    box-sizing: border-box;
+}
+.a{
+    height:2rem;
+    max-width:100%;
+   background-color:#db147e;
+   display:flex;
+   margin-top:0rem;
+   margin-bottom:0rem;
+}
+li{
+  list-style:none;
+  padding-right:1rem;
+}
+.a1{
+    padding-left:60rem;
+}
+
+.a1,.a2,.a3{
+    color:white;
+}
+
+.con1{
+  height:3.2rem;
+  width:100%;
+  background-color:fuchsia;
+  display:flex;
+  padding-left:5rem;
+}
+.res{
+    height:1.4rem;
+    width:1.4rem;
+}
+
+ input[type="text"]{
+    margin:.5rem 0rem .5rem 0rem;
+    width:25rem;
+}
+input[type="number"]{
+    margin-left:0.5rem;
+}
+.q{
+    display:flex;
+}
+.q1{
+    flex:1;
+    width:20%
+}
+.q2{
+    flex:3;
+    width:20%;
+}
+.main1{
+    flex:3;
+    order:1;
+    width:60%;
+}
+.cc{
+    background-color:black;
+    color:white;  
+}
+.c1,.c2{
+    padding:0.5rem 1rem 0.4rem 1.5rem;
+    border-left:0.1rem solid crimson;
+    color:white;
+    flex:1;
+    background-color:fuchsia;
+    text-align:center;
+}
+.c1{
+    order:3;
+}
+.c2{
+    order:2;
+}
+
+.con2{
+    height:25rem;
+    width:100%;
+    display:flex;
+    border-collapse: collapse;
+}
+.main2{
+    flex:2;
+    background-image:url("download.jpg");
+    order:2;
+    border:0.1rem solid lightgrey;
+    margin:1rem;
+}
+.s1,.s2{
+    flex:0.7;
+    border:0.1rem solid lightgrey;
+    margin:1rem;
+    background-color:white;
+}
+.s1{
+    order:1;
+}
+.s2{
+   order:3;
+}
+h{
+    font-size:200%;
+    padding-left:15rem;
+}
+.con3{
+    height:20rem;
+    width:100%;
+    display:flex;
+}
+.x1,.x2,.x3,.x4{
+    flex:1;
+}
+.con4{
+    margin-top:5rem;
+    height:20rem;
+    width:100%;
+    display:flex; 
+}
+.x5,.x6,.x7,.x8{
+    flex:1;
+}
+footer{
+    border-top:0.1rem solid lightgrey; 
+    height:20rem;
+    width:100%;
+}
+.table{
+    margin:2rem 4rem 4rem 4rem;
+    border-collapse:collapse;
+    height:10rem;
+    width:70rem;
+}
+th{
+    border:none;
+    color:black; 
+}
+td{
+    border:none;
+    text-align:center;  
+}
+.f{
+    display:flex;
+    border-bottom:0.1rem solid lightgrey; 
+}
+.f1,.f2{
+    padding-left:1rem;
+    flex:1;
+}
+@media(max-width:998px){
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size:45%;
+    }
+    .a,.con1,.q,.f{
+        display:block;
+    }
+    .con1,.q,.f{
+        margin-bottom:5rem;
+    }
+ 
+}
